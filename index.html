@@ -26,6 +26,23 @@ BONUS: Implement a web font from font-squirrel correctly for 3 extra points.
 	<head>
 		<title>Code Challenge #5</title>
 		<style>
+			@font-face {
+	    font-family: 'ambleregular';
+	    src: url('fonts/amble-regular-webfont.woff2') format('woff2'),
+	         url('fonts/amble-regular-webfont.woff') format('woff');
+	    font-weight: normal;
+	    font-style: normal;
+
+	}
+
+	@font-face {
+	    font-family: 'communistregular';
+	    src: url('fonts/communis-webfont.woff2') format('woff2'),
+	         url('fonts/communis-webfont.woff') format('woff');
+	    font-weight: normal;
+	    font-style: normal;
+
+	}
 			body {
 				margin: 0;
 				padding: 0;
@@ -35,9 +52,33 @@ BONUS: Implement a web font from font-squirrel correctly for 3 extra points.
 			}
 			header h1 {
 				text-align: center;
+				font-family: 'communistregular'
 			}
 			section {
 				padding: 25px 0;
+			}
+			h2 {
+				font-family: 'communistregular'
+			}
+			h3 {
+				font-family: 'communistregular'
+			}
+			h4 {
+				font-family: 'communistregular'
+			}
+			h5 {
+				font-family: 'communistregular'
+			}
+			h6 {
+				font-family: 'communistregular'
+			}
+			p {
+				font-family: 'ambleregular'
+			}
+			.container {
+				text-align: center;
+				margin: auto;
+				height: auto;
 			}
 		</style>
 	</head>
@@ -47,6 +88,16 @@ BONUS: Implement a web font from font-squirrel correctly for 3 extra points.
 		</header>
 		<section>
 			<div class="container">
+				<h2>Stuff</h2>
+					<p>This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. </p>
+				<h3>Stuff</h3>
+					<p>This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. </p>
+				<h4>Stuff</h4>
+					<p>This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. </p>
+				<h5>Stuff</h5>
+					<p>This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. </p>
+				<h6>Stuff</h6>
+					<p>This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. This is the 5th code challenge. </p>
 			</div>
 		</section>
 		<footer>
